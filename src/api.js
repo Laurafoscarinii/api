@@ -7,10 +7,6 @@ app.use(express.json());
 
 const router = express.Router();
 
-app.use('/', router.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'views', 'index.html'));
-}));
-
 app.use('/', router.get('/sobre', (req, res, next) => {
     res.status(200).send ({
         "nome" : "CHATINFO",
