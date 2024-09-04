@@ -47,3 +47,7 @@ exports.buscarMensagens = async (idsala, timestamp) => {
       "msgs":mensagens
     };
 };
+
+{
+  
+}
