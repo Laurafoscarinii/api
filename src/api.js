@@ -10,7 +10,7 @@ const router = express.Router();
 app.use('/', router.get('/sobre', (req, res, next) => {
     res.status(200).send ({
         "nome" : "CHATINFO",
-        "autor" : "Guilherme Reinehr",
+        "autor" : "laura foscarini",
         "versao" : "0.1.0"
     });
 }));
